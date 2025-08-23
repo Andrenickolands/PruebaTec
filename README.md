@@ -5,3 +5,6 @@ https://www.figma.com/design/edxxaczKDxj4CdehXgQr5Z/Prueba-pr%C3%A1ctica?node-id
 
 # LocalHost
 http://localhost/PruebaTec
+
+# DataBase
+https://github.com/Andrenickolands/PruebaTec/blob/DB/init_pruebaTec.sql
