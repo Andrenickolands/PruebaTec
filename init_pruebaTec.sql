@@ -13,8 +13,7 @@ CREATE TABLE Departamento (
     id INT AUTO_INCREMENT PRIMARY KEY,
     NombreDepartamento VARCHAR(50) NOT NULL COLLATE latin1_swedish_ci,
     PaisId INT NOT NULL,
-    FOREIGN KEY (CountryId) REFERENCES Country(id),
-    UNIQUE(NameCity, CountryId)
+    FOREIGN KEY (PaisId) REFERENCES Pais(id)
 );
 
 CREATE TABLE Usuarios (
