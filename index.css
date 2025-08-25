@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #b7c9a9;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 2rem;
+}
+
+body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #523961;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #FCFCFC;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btnH {
+    background-color: #674D69;
+    color: #FCFCFC;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btnH:hover {
+    background-color: #7a5a7d;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btnH:active {
+    transform: translateY(0);
+}
+
+
+.ilustracion {
+    transform: scale(0.7);
+    margin-top: -2rem;
+    width: 100%;
+    height: 394p;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps-container {
+    transform: scale(0.9);
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 394p;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.btn {
+    width: 224px;
+    height: 84px;
+    border-radius: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #3b234a;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #2a1a35;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 35, 74, 0.3);
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav-buttons {
+        gap: 10px;
+    }
+
+    .btnH {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .form-container {
+        padding: 20px;
+    }
+
+    .form-group label {
+        font-size: 24px;
+    }
+
+    .form-group input {
+        font-size: 22px;
+        height: 70px;
+    }
+
+    .btn {
+        width: 180px;
+        height: 60px;
+        font-size: 24px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
